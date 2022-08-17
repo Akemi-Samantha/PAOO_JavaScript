@@ -1,3 +1,51 @@
+//const devolveUmValor = () => 2
+//console.log(devolveUmValor())
+//console.log(devolveUmValor)
+
+//const exibeOi = (nome) => console.log(`Oi, &{nome}`)
+//exibeOi(`João`)
+
+//(valor) => valor * 2 
+//const dobro = (valor) => {return valor * 2}
+//console.log(dobro(1))
+
+//const hello = () => console.log(`Hello`)
+//hello()
+// ()=>{}
+
+/*
+const triplo = function (n = 5){
+    return 3 + n
+}
+console.log(triplo(7))
+console.log(triplo())
+console.log(triplo(undefined))
+console.log(triplo(null))
+console.log(triplo('abc'))
+*/
+//valorpadrãoparaoparâmetro 7 consttriplo=function(n=5){ 8 return3*n; 9 }; 10 console.log(triplo()); 11 console.log(triplo(10));
+
+/*
+function soma (a, b){
+    if(a !== 0 && b !== 0)
+        return a + b;
+} 
+    const res = soma (2 , 3)
+    console.log(res)
+*/
+/*function hello (){
+    console.log(`Oi`)
+}
+//Esa eh a chamada da função, 
+//Eh onde dizemos que ela deve ser colocada em execução
+hello()
+
+function hello (nome){
+    console.log(`Oi, ${nome}`)
+}
+hello(`Maria e João`)
+*/
+
 // //mais antigo: function
 // //mais moderno: arrow functions
 
