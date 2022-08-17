@@ -1,3 +1,104 @@
+// 1 -uma pessoa que se chama João -- JSON
+
+// let pessoa = {
+//     nome: "João",
+//     idade: 17
+// }
+
+// //console.log(pessoa)
+// console.log("Meu nome é: " + pessoa.nome)
+// console.log("Tenho " + pessoa["idade"] + " anos")
+
+
+// 3 - Uma concessionária tem CNPJ e endereço. Ela possui uma carro em estoque
+// Ele tem marca, modelo e ano de fabricação.
+let vrum = {
+    CNPJ :'62.545.568/0001-27',
+    endereco:{
+        rua: "Rua carro do bom",
+        numeroRua: 1586,
+        bairro: "Meu Carro Minha Vida"
+    },
+    carros : [
+        {
+            marca: 'BMW',
+            modelo: 'X1',
+            anoFabri: 2022
+        },
+        {
+            marca: 'Fiat',
+            modelo: 'Uno',
+            anoFabri: 1997
+        },
+        {
+            marca: 'Jeep',
+            modelo: 'Compass',
+            anoFabri: 2020
+        }
+    ]
+}
+
+// 2 -  Uma pessoa que se chama Maria, tem 21 anos e mora na rua B, numero 121
+
+// let serumanu = {
+//     nome: "Maria",
+//     idade: 21,
+//     endereco :{
+//         logradouro: "Rua B",
+//         numeroRua: 121
+//     }
+// }
+// const nome = serumanu.nome
+// const idade = serumanu.idade
+// const endereco = serumanu.endereco.logradouro
+// const numero =serumanu.endereco.numeroRua
+
+// console.log(`Olá, me chamo ${nome} , tenho ${idade} anos e 
+// moro na ${endereco}, ${numero}. Me mudei a pouco tempo :) `)
+
+// console.log(
+//   `
+//     ${serumanu.nome},
+//     ${serumanu[`idade`]},
+//     ${serumanu[`endereco`][logradouro]},
+//     ${serumanu[`endereco`][`numeroRua`]}
+//   `
+//   )
+
+
+
+// Função de alta ordem ( higer order function)
+// function f (funcao){
+//     //callable
+//     funcao()
+// }
+// // Função de alta ordem ( higer order function)
+// function g (){
+//     function outraFuncao(){
+//         console.log("Fui criada or G")    
+// }
+//     return outraFuncao
+// }
+//f(g)
+//f(g())
+//f(g()())
+
+
+//const gResult = g()
+//gResult()
+//g()()
+//g()()()
+//console.log(g()())
+//g()()()
+
+
+//let umaFuncao = function (){
+//    console.log(`Fui armazenaa em uma variável`)
+//}
+//umaFuncao()
+
+//f(function(){console.log("Estou sendo passada para f")}) 
+
 //const devolveUmValor = () => 2
 //console.log(devolveUmValor())
 //console.log(devolveUmValor)
