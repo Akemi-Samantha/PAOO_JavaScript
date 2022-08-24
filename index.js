@@ -1,3 +1,20 @@
+// Uma calculadora que faz operações de soma e subtação envolvendo
+//dois operandos
+
+let calculadora = { 
+     // arrow function
+    soma: (a , b) => {return a + b},
+    // funcação comum 
+    subtracao : function (a, b){
+        return a - b 
+    }
+}
+const res = calculadora.soma(2 , 3)
+const outraRes = calculadora[`subtracao`](5 , 2)
+console.log(outraRes)
+
+
+
 // 1 -uma pessoa que se chama João -- JSON
 
 // let pessoa = {
@@ -12,7 +29,7 @@
 
 // 3 - Uma concessionária tem CNPJ e endereço. Ela possui uma carro em estoque
 // Ele tem marca, modelo e ano de fabricação.
-let vrum = {
+/*let vrum = {
     CNPJ :'62.545.568/0001-27',
     endereco:{
         rua: "Rua carro do bom",
@@ -37,7 +54,7 @@ let vrum = {
         }
     ]
 }
-
+*/
 // 2 -  Uma pessoa que se chama Maria, tem 21 anos e mora na rua B, numero 121
 
 // let serumanu = {
